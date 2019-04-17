@@ -7,12 +7,13 @@ const person = {
 };
 
 const hobbies = ['Sports', 'Cooking'];
-
-// hobbies.forEach(function(hobby){
-//     console.log(hobby)
-// })
-
-// console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
-hobbies.push('Programming');
+const copiedArray = [...hobbies];
 console.log(hobbies);
+console.log(copiedArray);
+
+const toArray = (...args) => {
+    return args;
+};
+
+console.log(toArray(1,2,3,4));
 
