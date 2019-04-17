@@ -6,14 +6,16 @@ const person = {
     }
 };
 
-const hobbies = ['Sports', 'Cooking'];
-const copiedArray = [...hobbies];
-console.log(hobbies);
-console.log(copiedArray);
-
-const toArray = (...args) => {
-    return args;
+const printName = ({name}) => {
+    console.log(name);
 };
 
-console.log(toArray(1,2,3,4));
+printName(person)
+
+const { name, age } = person;
+console.log(name, age);
+
+const hobbies = ['Sports', 'Cooking'];
+const [hobby1, hobby2] = hobbies;
+console.log(hobby1, hobby2);
 
