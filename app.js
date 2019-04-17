@@ -8,10 +8,11 @@ const person = {
 
 const hobbies = ['Sports', 'Cooking'];
 
-hobbies.forEach(function(hobby){
-    console.log(hobby)
-})
+// hobbies.forEach(function(hobby){
+//     console.log(hobby)
+// })
 
-console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+// console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
+hobbies.push('Programming');
 console.log(hobbies);
 
