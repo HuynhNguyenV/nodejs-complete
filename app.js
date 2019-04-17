@@ -8,5 +8,3 @@ function summarizaUser(userName, userAge, userHasHobby){
 }
 
 console.log(summarizaUser(name, age, hasHobbies));
-
-
